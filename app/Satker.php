@@ -16,4 +16,9 @@ class Satker extends Model
     {
         return $this->hasMany(Paket::class, 'kdsatker', 'kdsatker');
     }
+
+    public function paketaccess()
+    {
+        return $this->hasMany(Paketaccess::class, 'kdsatker', 'kdsatker');
+    }
 }

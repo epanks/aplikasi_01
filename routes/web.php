@@ -35,3 +35,5 @@ Route::get('/paket/{id}/delete', 'PaketController@delete');
 Route::get('/paket/{id}/profile', 'PaketController@profile');
 
 Route::get('/paket/export_excel', 'PaketController@export_excel');
+
+Route::get('/paketaccess', 'PaketaccessController@index');
