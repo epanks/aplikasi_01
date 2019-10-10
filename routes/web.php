@@ -18,6 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/timur', 'HomeController@timur')->name('timur');
 
 Route::get('/balai', 'BalaiController@index');
 Route::get('/balai/{id}/satker', 'BalaiController@satker');

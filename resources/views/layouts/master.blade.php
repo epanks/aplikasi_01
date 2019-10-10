@@ -72,6 +72,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="/timur" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt blue"></i>
+              <p>
+              Wilayah Timur
+              </p>
+            </a>
+          </li>
           {{-- <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-building green"></i>
